@@ -1,0 +1,26 @@
+2025/06/29 05:11:33 logs-crashpods.go:45: [CRASHPODS] hello from crash
+2025/06/29 05:11:33 logs-crashpods.go:45: [CRASHPODS] 
+2025/06/29 05:27:24 logs-crashpods.go:45: [CRASHPODS] hello from crash
+2025/06/29 05:27:24 logs-crashpods.go:45: [CRASHPODS] 
+2025/06/29 05:27:24 logs-crashpods.go:45: [CRASHPODS] INFO  Starting app...
+2025/06/29 05:27:24 logs-crashpods.go:45: [CRASHPODS] INFO  Connecting to DB...
+2025/06/29 05:27:24 logs-crashpods.go:45: [CRASHPODS] WARN  DB connection slow...
+2025/06/29 05:27:24 logs-crashpods.go:45: [CRASHPODS] ERROR Failed to fetch config from /etc/app/config.yml
+2025/06/29 05:27:24 logs-crashpods.go:45: [CRASHPODS] INFO  Retrying...
+2025/06/29 05:27:24 logs-crashpods.go:45: [CRASHPODS] CRITICAL: NullPointerException at main.go:47
+2025/06/29 05:27:24 logs-crashpods.go:45: [CRASHPODS] Stacktrace:
+2025/06/29 05:27:24 logs-crashpods.go:45: [CRASHPODS]   at main.startApp(main.go:47)
+2025/06/29 05:27:24 logs-crashpods.go:45: [CRASHPODS]   at main.main(main.go:21)
+2025/06/29 05:27:24 logs-crashpods.go:45: [CRASHPODS] 
+2025/06/29 08:54:21 logs-crashpods.go:45: [CRASHPODS] hello from crash
+2025/06/29 08:54:21 logs-crashpods.go:45: [CRASHPODS] 
+2025/06/29 08:54:21 logs-crashpods.go:45: [CRASHPODS] INFO  Starting app...
+2025/06/29 08:54:21 logs-crashpods.go:45: [CRASHPODS] INFO  Connecting to DB...
+2025/06/29 08:54:21 logs-crashpods.go:45: [CRASHPODS] WARN  DB connection slow...
+2025/06/29 08:54:21 logs-crashpods.go:45: [CRASHPODS] ERROR Failed to fetch config from /etc/app/config.yml
+2025/06/29 08:54:21 logs-crashpods.go:45: [CRASHPODS] INFO  Retrying...
+2025/06/29 08:54:21 logs-crashpods.go:45: [CRASHPODS] CRITICAL: NullPointerException at main.go:47
+2025/06/29 08:54:21 logs-crashpods.go:45: [CRASHPODS] Stacktrace:
+2025/06/29 08:54:21 logs-crashpods.go:45: [CRASHPODS]   at main.startApp(main.go:47)
+2025/06/29 08:54:21 logs-crashpods.go:45: [CRASHPODS]   at main.main(main.go:21)
+2025/06/29 08:54:21 logs-crashpods.go:45: [CRASHPODS] 
