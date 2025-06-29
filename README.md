@@ -43,12 +43,34 @@ See `monitoring/setup.md` for instructions.
 
 ## Screenshots
 
-_Example CLI Output:_
+##  Screenshots
 
+###  CLI Commands Output
+
+####  CrashLoopBackOff Detection
 ![CrashLoop CLI](./screenshots/Crashpods.png)
 
-_Grafana View:_
+####  Logs of Crashing Pods
+![Logs CLI](./screenshots/logs_pods.png)
 
-![Grafana](./screenshots/grafana.png)
+####  Suggested Fixes
+![Fix CLI](./screenshots/fix.png)
+
+#### Important Pod Info
+![Imp CLI](./screenshots/imp.png)
+
+#### Orphan Pod Detection
+![Orphans CLI](./screenshots/orphans.png)
+
+#### High-Restart Pod Detection
+![Restarts CLI](./screenshots/restarts.png)
+
+---
+
+###  Grafana Dashboard
+
+####  Monitoring Pod Metrics and Alerts
+![Grafana](./screenshots/dash.png)
+
 
 
