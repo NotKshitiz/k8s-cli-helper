@@ -73,4 +73,27 @@ See `monitoring/setup.md` for instructions.
 ![Grafana](./screenshots/dash.png)
 
 
+##  Tech Stack
+
+- **Go + Cobra** – Command-line tool development
+- **Kubernetes** – Cluster platform (tested on Minikube)
+- **kubectl** – Interfaced via Go’s `os/exec` for cluster queries
+- **Prometheus** – Metrics monitoring and alert triggers
+- **Grafana** – Visual dashboards for Kubernetes metrics
+- **Loki** – Aggregated logs from all pods
+- **Alertmanager** – Email alerts for pod failures
+- **YAML Manifests** – Used for test pods and monitoring config
+
+
+##  Author
+
+**Kshitiz Kumar**  
+B.Tech - Big Data @ UPES Dehradun  
+GitHub: [@NotKshitiz](https://github.com/NotKshitiz)
+
+##  License
+
+MIT License
+
+
 
