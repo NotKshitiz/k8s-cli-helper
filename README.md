@@ -41,5 +41,14 @@ A Go-based CLI tool to detect and debug Kubernetes CrashLoopBackOff pods and orp
 This repo includes optional Prometheus, Grafana, and Loki setup.  
 See `monitoring/setup.md` for instructions.
 
+## Screenshots
+
+_Example CLI Output:_
+
+![CrashLoop CLI](./screenshots/Screenshot2025-06-29192602.png)
+
+_Grafana View:_
+
+![Grafana](./screenshots/grafana.png)
 
 
