@@ -45,7 +45,7 @@ See `monitoring/setup.md` for instructions.
 
 _Example CLI Output:_
 
-![CrashLoop CLI](./screenshots/Screenshot2025-06-29192602.png)
+![CrashLoop CLI](./screenshots/Crashpods.png)
 
 _Grafana View:_
 
