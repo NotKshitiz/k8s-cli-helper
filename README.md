@@ -23,18 +23,18 @@ A Go-based CLI tool to detect and debug Kubernetes CrashLoopBackOff pods and orp
 
 ##  Commands
 
-go run main.go checkCrashloops
-go run main.go logs-crashpods
-go run main.go fix-crashpods
-go run main.go auto-analyze
-go run main.go check-high-restarts
-go run main.go find-orphans
+- go run main.go checkCrashloops
+- go run main.go logs-crashpods
+- go run main.go fix-crashpods
+- go run main.go auto-analyze
+- go run main.go check-high-restarts
+- go run main.go find-orphans
 
 
 ## Test It
 
-kubectl apply -f sample-pods/crashpod.yaml
-go run main.go checkCrashloops
+- kubectl apply -f sample-pods/crashpod.yaml
+- go run main.go checkCrashloops
 
 ## Monitoring Stack
 
