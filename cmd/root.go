@@ -14,7 +14,7 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "k8s-cli-helper",
+	Use:   "k8scan",
 	Short: "CLI tool to help debug Kubernetes issues",
 }
 
